@@ -1,7 +1,7 @@
-# QDA-Classification-Program
-
-Objective: Write a program based on Quadratic Discriminant Analysis to classify a data set with k different classes
-Parameter Estimation:
+# Classification-QDA Program
+#Objective
+Write a program based on Quadratic Discriminant Analysis to classify a data set with k different classes
+#Parameter Estimation:
 •	We model each class density as multivariate Gaussian distribution. 
 •	If we assume that the covariance matrices are same across all the k’s, it becomes Linear Discriminant Analysis method for classification.
 •	QDA abandons the idea of assumption of the common covariance matrix.
@@ -9,7 +9,7 @@ Parameter Estimation:
 •	We select the category that attains the highest posterior probability
 •	We estimate the QDA parameters from the training data:
 
-Classification Steps:
+#Classification Steps:
  •Using the training data, we estimate the parameters: prior probability, centroid, covariance matrix and inverse of covariance matrix for each class
 •	Having estimated these parameters, we find the QDA for each class.
 •	Our model is then ready to classify the test data
