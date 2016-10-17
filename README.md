@@ -4,9 +4,9 @@ Write a program based on Quadratic Discriminant Analysis to classify a data set 
 
 **Parameter Estimation**
 
-a.We model each class density as multivariate Gaussian distribution. 
+a. We model each class density as multivariate Gaussian distribution. 
 
-b.If we assume that the covariance matrices are same across all the k’s, it becomes Linear Discriminant Analysis method for classification.
+b. If we assume that the covariance matrices are same across all the k’s, it becomes Linear Discriminant Analysis method for classification.
 
 c.	QDA abandons the idea of assumption of the common covariance matrix.
 
